@@ -1,5 +1,12 @@
-# DrugIT-Hackathon
-# AI-Powered Healthcare Diagnostic Platform
+# DRUGORITHM AI-Powered Healthcare Diagnostic Platform
+
+> 🏆 **Winner of the Advanced Level at [DrugIT](https://www.linkedin.com/company/drugit/)'s Drugorithm Hackathon!**
+
+An end-to-end AI-powered healthcare diagnostic system built on a **multi-agent architecture**. Specialized agents analyze medical images and documents, reason clinically, and recommend treatments simulating how a real clinical team collaborates.
+
+## 🎬 Demo
+
+https://github.com/user-attachments/assets/4cf88e89-6919-4ada-aacd-2756b874fecf
 
 ## Overview
 
@@ -17,8 +24,8 @@ The system processes medical images and documents, provides clinical reasoning, 
 - **Secure API Orchestration**: FastAPI-based system managing requests, states, and workflows
 
 ## System Architecture
-![image](https://github.com/user-attachments/assets/36304865-f81e-4345-a035-4e023f28e25e)
 
+![System architecture](https://github.com/user-attachments/assets/36304865-f81e-4345-a035-4e023f28e25e)
 
 The platform consists of the following components:
 
@@ -79,8 +86,8 @@ The platform consists of the following components:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/healthcare-diagnostic-platform.git
-cd healthcare-diagnostic-platform
+git clone https://github.com/mahdibani/DRUGORITHM-.git
+cd DRUGORITHM-
 ```
 
 2. Create a virtual environment:
@@ -132,9 +139,6 @@ result = response.json()
 print(result)
 ```
 
-## Project Structure
-
-
 ## Development
 
 ### Adding New Models
@@ -177,10 +181,7 @@ pytest
 - ultralytics - YOLOv8 implementation
 - python-multipart - Multipart form data parsing
 - openai - OpenAI API integration
-- python-dotenv - Environment variable management
 
 ## License
 
 [MIT License](LICENSE)
-demo video:
-  https://github.com/user-attachments/assets/4cf88e89-6919-4ada-aacd-2756b874fecf
